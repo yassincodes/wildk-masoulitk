@@ -5,7 +5,7 @@ function Advices() {
     {
       id: 1,
       advice: (
-        <a href="mailto:jawher@gmail.com">
+        <a href="mailto:weldekmasoulitek@gmail.com">
           <img style={{ width: "20px" }} src={gmail} />
           <p>إضافة المزيد من النصائح</p>
         </a>
@@ -15,7 +15,7 @@ function Advices() {
     },
     {
       id: 2,
-      advice: "استمتع بوقتك مع أطفالك واقضِ وقتًا ذو جودة عالية معهم كل يوم.",
+      advice: "استمتع بوقتك مع أطفالك واقضِ وقتًا أطول معهم كل يوم.",
       rotateDegree: -2,
       color: "#e2f0ff",
     },

@@ -42,7 +42,7 @@ function App() {
                     transition: { type: "spring", stiffness: 200, damping: 12 },
                   }}
                 >
-                  <img style={{ width: "300px" }} alt="logo" />
+                  <img src={pic} style={{ width: "200px" }} />
                 </div>
                 <div
                   style={{
@@ -56,7 +56,7 @@ function App() {
                   <ClipLoader
                     color={color}
                     loading={loading}
-                    size={150}
+                    size={20}
                     aria-label="Loading Spinner"
                     data-testid="loader"
                   />
